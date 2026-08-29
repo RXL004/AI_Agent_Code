@@ -1,0 +1,38 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# IDE
+.vscode/
+.idea/
+
+# 日志与临时文件
+*.log
+tmp/
+temp/
+~$*
+
+# 环境与密钥（重要：绝不提交）
+.env
+.env.*
+*.key
+*_apikey*
+credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+package-lock.json
+dist/
+
+# 数据文件（按需放开注释）
+# *.csv
+# *.xlsx
+# *.sqlite
